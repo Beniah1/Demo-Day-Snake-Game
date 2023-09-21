@@ -1,5 +1,8 @@
 // Set up DOM elements
-// Person 1
+// Person 1 Enoch Borlabi Borketey
+// The final code we make must look like this:
+
+
 const playBoard = document.querySelector(".play-board");
 const scoreElement = document.querySelector(".score");  
 const highScoreElement = document.querySelector(".high-score");
@@ -46,8 +49,12 @@ const changeDirection = e => {
 controls.forEach(button => button.addEventListener("click", () => changeDirection({ key: button.dataset.key })));
 
 
-// Person 2
+// Person 2 Beniah Opong Diallo
+// The final code we make must look like this:
 // Main game loop function 
+
+
+
 const initGame = () => {
     if(gameOver) return handleGameOver();
   
